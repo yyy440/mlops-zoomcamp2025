@@ -1,0 +1,15 @@
+{"image":"mcr.microsoft.com/devcontainers/universal:2",
+"build": {
+	"dockerfile": "/workspaces/mlops-zoomcamp2025/04-deployment/homework/starter_docker"
+},
+"features": {
+	"ghcr.io/devcontainers/features/docker-in-docker:2": {
+		"moby": true,
+		"azureDnsAutoDetection": true,
+		"installDockerBuildx": true,
+		"installDockerComposeSwitch": true,
+		"version": "latest",
+		"dockerDashComposeVersion": "v2"
+	}
+},
+}
